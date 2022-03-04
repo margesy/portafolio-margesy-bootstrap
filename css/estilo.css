@@ -1,0 +1,16 @@
+.nav-item:hover {
+    background-color: orange;
+}
+
+body {
+    background-color: rgb(241, 218, 155) !important ;
+    font-family: sans-serif !important;
+}
+
+P {
+    font-size: 25px;
+}
+
+footer {
+    background-color: rgb(255, 181, 71) !important;
+}
