@@ -1,0 +1,11 @@
+$coloresPrincipales: (
+    colorBase:#f1da9b,
+    colorNav:orange,
+    colorFooter:#ffb547,
+);
+
+@each $clave, $valor in $coloresPrincipales {
+    .#{$clave}{
+        color: $valor
+    }
+}

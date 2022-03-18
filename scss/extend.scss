@@ -1,0 +1,24 @@
+// CLASE BASE
+
+.boton {
+    width: 100px;
+    height: 40px;
+    font-size: 20px;
+    color: rgb(24, 24, 90);
+    background-color: rgb(230, 189, 115);
+    border: 1px;
+    border-radius: 20px;
+}
+
+//EXTENDR CLASE BASE
+.boton-aceptar{
+    @extend .boton; 
+    background-color: rgb(228, 188, 114);
+    border: 1px solid orange;
+}
+
+.boton-cancelar {
+    @extend .boton;
+    background-color: rgb(228, 188, 114);
+    border: 1px solid orange;
+}

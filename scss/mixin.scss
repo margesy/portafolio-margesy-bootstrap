@@ -1,0 +1,7 @@
+@mixin colorYbackground ($color, $background){
+    color: $color;
+    background-color: $background;
+}
+div{
+    @include colorYbackground (orange,rgb(228, 188, 114))
+}
